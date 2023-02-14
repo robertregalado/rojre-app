@@ -1,0 +1,10 @@
+{
+    "projects": [
+        { "title": "Housing Price Prediction", "id": 1, "details": "lorem"},
+        { "title": "Ecommerce Website", "id": 1, "details": "lorem"},
+        { "title": "Todo App", "id": 1, "details": "lorem"},
+        { "title": "Smart Home", "id": 1, "details": "lorem"}
+    
+    ]
+
+}

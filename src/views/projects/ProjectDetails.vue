@@ -19,7 +19,7 @@ export default {
       }
     },
     mounted() {
-      fetch(' http://localhost:3000/projects' + this.id)
+      fetch(' http://localhost:3000/projects/' + this.id)
       .then(res => res.json())
       .then(data => this.project = data)
       .catch(err => console.log(err.message))

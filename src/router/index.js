@@ -4,7 +4,7 @@ import AboutView from '../views/AboutView.vue'
 import NotFoundView from '../views/NotFoundView.vue'
 import Projects from '../views/projects/Projects.vue'
 import ProjectDetails from '../views/projects/ProjectDetails.vue'
-import ContactView from '../views/ContactView.vue'
+import ContactForm from '../views/ContactForm.vue'
 
 
 const routes = [
@@ -26,7 +26,7 @@ const routes = [
   {
     path: '/contact-me',
     name: 'contact',
-    component: ContactView
+    component: ContactForm
   },
   {
     path: '/projects/:id',
@@ -43,6 +43,7 @@ const routes = [
     name: 'NotFound',
     component: NotFoundView
   },
+
 ]
 
 const router = createRouter({
